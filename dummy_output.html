@@ -1,0 +1,750 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title></title>
+  <style type="text/css">
+    #outlook a {
+      padding:0;
+    }
+    body {
+      -webkit-text-size-adjust:none;
+      font-family: Verdana, Arial, Trebuchet MS;
+      font-variant: normal;
+      font-size: 12px;
+      font-weight:normal;
+      margin:0;
+      padding:0;
+    }
+    body, #backgroundTable {
+      background-color:#EDEDEA;
+    }
+    .email-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .main-content {
+      background: #fff;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    img {
+      display:inline-block;
+      border:none;
+      font-size:14px;
+      font-weight:bold;
+      height:auto;
+      line-height:100%;
+      outline:none;
+      text-decoration:none;
+      text-transform:capitalize;
+      max-width:100%;
+    }
+    #backgroundTable {
+      margin:0;
+      padding:0;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      color:#111;
+      display:block;
+      font-family: Verdana, Arial, Trebuchet MS;
+      font-variant: normal;
+      font-size: 12px;
+      font-weight:normal;
+      line-height:100%;
+      margin-bottom:10px;
+      text-align:left;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    h5 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    p {
+      color:#111;
+      display:block;
+      font-family: Verdana, Arial, Trebuchet MS;
+      font-variant: normal;
+      font-size: 12px;
+      font-weight:normal;
+      line-height:100%;
+      text-align:left;
+    }
+    p.MsoNormal {
+      padding: 0;
+      margin: 0;
+    }
+    .preheaderContent div {
+      color:#505050;
+      font-size:10px;
+      text-align:left;
+    }
+    .preheaderContent div a:link,.preheaderContent div a:visited {
+      color:#0086e3;
+      font-weight:normal;
+      text-decoration:underline;
+    }
+    .preheaderContent div img {
+      height:auto;
+      max-width:800px;
+    }
+    #templateHeader,#footer-social {
+      background-color:#611061;
+    }
+    .headerContent {
+      padding:20px 30px;
+    }
+    #headerImage {
+      height:auto;
+      max-width:600px !important;
+    }
+    .text-center {
+      text-align: center;
+    }
+    #templateContainer,.bodyContent {
+      border-top:10px solid #ededea;
+    }
+    .bodyContent {
+      border-bottom:2px solid #ddd;
+    }
+    .bodyContent div {
+      color:#111;
+      font-size:14px;
+      line-height:150%;
+      text-align:left;
+      margin:20px auto;
+    }
+    .bodyContent .img-wrap-right {
+      float:right;
+      margin:0;
+      position:relative;
+      right:0;
+      z-index:10;
+    }
+    .left-img h2 {
+      margin-top:0;
+    }
+    .bodyContent div a:link, .bodyContent div a:visited {
+      color:#0086e3;
+      font-weight:normal;
+      text-decoration:none;
+    }
+    .bodyContent img {
+      display:inline;
+      margin-bottom:10px;
+    }
+    .headings td h1 {
+      color:#611061;
+    }
+    #templateFooter {
+      background-color:#EDEDEA;
+      border-top:10px solid #ededea;
+    }
+    .footerContent div {
+      color:#707070;
+      font-size:12px;
+      line-height:125%;
+      text-align:center;
+    }
+    .footerContent .adr {
+      text-align:center;
+    }
+    .footerContent div a:link, .footerContent div a:visited {
+      color:#999;
+      font-weight:normal;
+      text-decoration:underline;
+    }
+    #social a {
+      color:inherit;
+      margin-left:20px;
+      text-decoration:none;
+    }
+    #footer-social a {
+      margin-left:5px;
+    }
+    #social, #footer-social .s-content{
+      color:#9d6b9d;
+      line-height:46px;
+      font-size:12px;
+      font-weight:normal;
+      text-align:right;
+    }
+    #footer-social img, #social img {
+      display:inline-block;
+      margin-right:5px;
+      text-align:center;
+    }
+    #utility {
+      background-color:#ededea;
+    }
+    #utility div {
+      text-align:center;
+    }
+    .left-img h2 {
+      margin-top:0;
+    }
+    tr.table-header {
+      background: #444;
+      color: #fff;
+    }
+    tr.price-summary-even {
+      background: #eee;
+      color: black;
+    }
+     tr.price-summary-odd {
+      background: #fefefe;
+      color: black;
+    }
+    tr.order-total {
+      background: black;
+      color: white;
+    }
+    .green {
+      color: #3D9970;
+    }
+    @media print {
+      body {
+        margin: 0;
+      }
+      h1,h2,h3,h4,h5,h6 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+      p.MsoNormal {
+        padding: 0;
+        margin: 0;
+      }
+      td {
+        text-align: left;
+      }
+      img.logo {
+        height: 50px;
+      }
+    }
+    @media all and (max-width:600px) {
+      #footer-social .s-content {
+        padding:20px 0;
+        width:100%;
+      }
+    }
+    @media all and (max-width:600px) {
+      #backgroundTable{
+        width:100% !important;
+      }
+    }
+    @media all and (max-width:600px){
+      .left-img td{
+        display:block;
+        width:100%;
+      }
+    }
+    @media screen and (max-width:600px) {
+      #templatePreheader{
+        display:none;
+      }
+    }
+    @media screen and (max-width:600px){
+      .clear{
+        clear:both;
+        float:right;
+        margin-top:20px;
+      }
+    }
+    @media screen and (max-width:600px){
+      .m-center,.m-center td{
+        text-align:center !important;
+      }
+    }
+    @media screen and (max-width:600px) {
+      .m-hide {
+        display:none !important;
+      }
+    }
+</style></head>
+<body>
+  <div class="email-wrapper">
+    <table class="m_688457355974108201MsoNormalTable" style="width:100.0%;background:white;border:none;border-top:solid #ededea 6.0pt" border="1" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td style="border:none;padding:0cm 0cm 0cm 0cm" valign="top">
+            <div align="center">
+              <table class="m_688457355974108201MsoNormalTable" style="width:100.0%;background:#611061" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td style="padding:15.0pt 22.5pt 15.0pt 22.5pt">
+                      <p class="MsoNormal"><img id="m_688457355974108201_x0000_i1025" src="https://ci3.googleusercontent.com/proxy/mn5_DynAC7m6pwrZzAufLR7Go98X9umHfPJMCix2urVSyhlAin9l2oR8mgd4sOZ0fl_HusPkPrh7t4ceLyIE5Fr11gomKPH1Zu-UqnDHLPQS9pgWbZRbM11T4tc-nSVdDzQUssvciHr89qHU9uRo7-PH2fbwSxVQn9SR-mw=s0-d-e1-ft#https://gallery.mailchimp.com/8e351746d373846e92b01f140/images/902b4b2d-43d2-4349-8d98-29a0fbaccb7b.png" border="0" class="CToWUd"><u></u><u></u></p>
+                    </td>
+                    <td style="padding:15.0pt 15.0pt 15.0pt 15.0pt;float:right">
+                      <div align="right">
+                        <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding:0cm 0cm 0cm 0cm;display:inline-block">
+                                <p class="MsoNormal" style="text-align:right;line-height:125%" align="right"><span class="m_688457355974108201m-1682945526214314154m-hide"><span style="font-size:9.0pt;line-height:125%;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#9d6b9d">Visit
+                                      our website &nbsp;</span></span><span style="font-size:9.0pt;line-height:125%;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#9d6b9d">
+                                    <a href="http://www.romanbaths.co.uk/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=http://www.romanbaths.co.uk/&amp;source=gmail&amp;ust=1483711858866000&amp;usg=AFQjCNHsttVjAGRuQ_iua-63Dvoaq1uTww"><span style="text-decoration:none"><img id="m_688457355974108201_x0000_i1026" src="https://ci5.googleusercontent.com/proxy/rbnvapla7rV8p5kLk2w0TooalFB1vOQr0Ox8TiSqQodQHDDuJoJiz525U0lyeBmNhXsXMy7Nuh591TieQO0W3fzlDCucfqgxJsAS0QjilikwGij74Jx7KwXmFdBLanVBEUmDoJCRal1zjzRvZOTCzmS8VOILV7ddgSYVwDo=s0-d-e1-ft#https://gallery.mailchimp.com/8e351746d373846e92b01f140/images/ae6ff4a0-ed46-4967-b0f6-a478db854b76.png" height="40" border="0" width="40" class="CToWUd"></span></a><u></u><u></u></span></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="MsoNormal" style="background:white"><u></u>&nbsp;<u></u></p>
+    <div class="main-content">
+      <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td style="padding:0cm 0cm 0cm 0cm">
+              <div align="center">
+                <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="padding:0cm 0cm 0cm 0cm">
+                        <p style="text-align:center" align="center"><b><span style="font-size:18.0pt;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Your
+                              Order Confirmation
+                              <u></u><u></u></span></b></p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="MsoNormal" style="text-align:center" align="center">
+                <hr align="center" size="1" width="100%">
+              </div>
+              <p class="MsoNormal">Dear j, <u></u><u></u></p>
+              <p><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Thank
+                  you for your order.<u></u><u></u></span></p>
+              <div>
+                <p class="MsoNormal"><u></u>&nbsp;<u></u></p>
+                <h2>Your Order number is 99.<u></u><u></u></h2>
+                <p class="MsoNormal"><u></u>&nbsp;<u></u></p>
+                <p class="m_688457355974108201m-1682945526214314154text-center">Please
+                  present this confirmation email at the Ticket
+                  Desk on arrival<u></u><u></u></p>
+                <h5 style="text-align:center" align="center">Please
+                  verify the information indicated below to
+                  ensure the accuracy of your order.
+                  <u></u><u></u></h5>
+              </div>
+              <div class="MsoNormal" style="text-align:center" align="center">
+                <hr style="color:#385f9a" align="center" noshade="" size="1" width="100%">
+              </div>
+              <div align="center">
+                <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="width:228.0pt;padding:0cm 0cm 0cm 0cm" width="304">
+                        <p class="MsoNormal"><b><span style="font-size:13.0pt;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#085196">Billing
+                              Information
+                              <u></u><u></u></span></b></p>
+                      </td>
+                      <td style="width:228.0pt;padding:0cm 0cm 0cm 0cm" width="304">
+                        <p class="MsoNormal"><b><span style="font-size:13.0pt;font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#085196">&nbsp;
+                              <u></u><u></u></span></b></p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="MsoNormal"><span style="display:none"><u></u>&nbsp;<u></u></span></p>
+              <div align="center">
+                <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="width:228.0pt;padding:0cm 0cm 0cm 0cm" width="304">
+                        <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">j
+                            j<br>
+                            j<br>
+                            j, ENG ba2<br>
+                            01264<br>
+                            <a href="mailto:jacob.tindall@gmail.com" target="_blank">jacob.tindall@gmail.com</a>
+                            <u></u><u></u></span></p>
+                      </td>
+                      <td style="width:228.0pt;padding:0cm 0cm 0cm 0cm" valign="top" width="304">
+                        <p class="MsoNormal">&nbsp; <u></u><u></u></p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="MsoNormal"><span style="display:none"><u></u>&nbsp;<u></u></span></p>
+              <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td colspan="4" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <div class="MsoNormal" style="text-align:center" align="center"><b><span style="color:#085196">
+                            <hr style="color:#385f9a" align="center" noshade="" size="1" width="100%">
+                          </span></b></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="margin-bottom:12.0pt"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#085196">Order
+                            Date: 04/01/2017
+                            <u></u><u></u></span></b></p>
+                    </td>
+                  </tr>
+                  <tr style="height:21.6pt">
+                    <td style="width:62.0%;padding:1.2pt 1.2pt 1.2pt 1.2pt;height:21.6pt" width="62%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><strong><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Item
+                          </span></strong><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;"><u></u><u></u></span></b></p>
+                    </td>
+                    <td style="width:13.0%;padding:1.2pt 1.2pt 1.2pt 1.2pt;height:21.6pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Price
+                            <u></u><u></u></span></b></p>
+                    </td>
+                    <td style="width:15.0%;padding:1.2pt 1.2pt 1.2pt 1.2pt;height:21.6pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Quantity
+                            <u></u><u></u></span></b></p>
+                    </td>
+                    <td style="width:10.0%;padding:1.2pt 1.2pt 1.2pt 1.2pt;height:21.6pt" width="10%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Total
+                            <u></u><u></u></span></b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB
+                          WEB ADULT
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£15.50
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£15.50
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB
+                          WEB STUDENT
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£13.75
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£13.75
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB
+                          WEB SENIOR
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£13.75
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£13.75
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB
+                          WEB CHILD
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£9.80
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£9.80
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB
+                          WEB FAMILY<u></u><u></u></span></p>
+                      <div>
+                        <p class="MsoNormal"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Package
+                              Contains:
+                              <u></u><u></u></span></b></p>
+                      </div>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">2 RB WEB
+                          FAMILY CHILD
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:15.0pt">
+                        <span><span>o<span>&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:15.0pt">
+                        <span><span>o<span>&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:3.75pt">
+                        <span style="font-size:10.0pt;font-family:Symbol"><span>·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">2 RB WEB
+                          FAMILY ADULT
+                          <u></u><u></u></span></p>
+                      <p class="MsoNormal" style="margin-left:15.0pt">
+                        <span><span>o<span>&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">RB Web
+                            Sales
+                            <u></u><u></u></span></i></p>
+                      <p class="MsoNormal" style="margin-left:15.0pt">
+                        <span><span>o<span>&nbsp;&nbsp;&nbsp;
+                            </span></span></span><i><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">25/02/2017
+                            09:30
+                            <u></u><u></u></span></i></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£46.00
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£46.00
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:62.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="62%">
+                      <p class="MsoNormal"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Essential
+                          Roman Baths Guidebook
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:13.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="13%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£5.00
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:15.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="15%">
+                      <p class="MsoNormal" style="text-align:center" align="center"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">1
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="width:10.0%;background:white;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="10%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£5.00
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="padding:1.2pt 1.2pt 1.2pt 1.2pt"><br>
+                    </td>
+                    <td colspan="2" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <div class="MsoNormal" style="text-align:center" align="center">
+                        <hr style="color:#385f9a" align="center" noshade="" size="1" width="100%">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Subtotal:
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£103.80
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Tax:
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£0.00
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Delivery
+                          (Collection at the Roman Baths
+                          entrance):
+                          <u></u><u></u></span></p>
+                    </td>
+                    <td style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£0.00
+                          <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <div class="MsoNormal" style="text-align:center" align="center">
+                        <hr style="color:#385f9a" align="center" noshade="" size="1" width="100%">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="width:85.0%;padding:1.2pt 1.2pt 1.2pt 1.2pt" width="85%">
+                      <p class="MsoNormal" style="text-align:right" align="right"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Order
+                            Total:
+                            <u></u><u></u></span></b></p>
+                    </td>
+                    <td style="padding:1.2pt 1.2pt 1.2pt 1.2pt">
+                      <p class="MsoNormal" style="text-align:right" align="right"><b><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">£103.80
+                            <u></u><u></u></span></b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="padding:1.2pt 1.2pt 1.2pt 1.2pt"><br>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>Thank you for your interest in the Galactic
+                Explorers Newsletter. Keep an eye on your inbox
+                for our next monthy installment!
+                <u></u><u></u></p>
+              <table class="m_688457355974108201MsoNormalTable" style="width:100.0%" border="0" cellpadding="0" cellspacing="3" width="100%">
+                <tbody>
+                  <tr>
+                    <td style="padding:.75pt .75pt .75pt .75pt">
+                      <div class="MsoNormal" style="text-align:center" align="center">
+                        <hr align="center" size="1" width="100%">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr style="height:21.6pt">
+                    <td style="padding:.75pt .75pt .75pt .75pt;height:21.6pt">
+                      <h3>Please click on the following links
+                        below for useful information to help you
+                        plan your visit.<u></u><u></u></h3>
+                      <p><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">For
+                          information on how to get here
+                          <a href="https://www.romanbaths.co.uk/getting-here" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://www.romanbaths.co.uk/getting-here&amp;source=gmail&amp;ust=1483711858867000&amp;usg=AFQjCNGAU0IasA30pFif26gcMY0KzBCzSQ">click here</a>
+                          <br>
+                          <br>
+                          For information on our shops and
+                          restaurants <a href="https://www.romanbaths.co.uk/shop-and-eat" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://www.romanbaths.co.uk/shop-and-eat&amp;source=gmail&amp;ust=1483711858867000&amp;usg=AFQjCNFjZpSlL7vcTPK0aR8WlD9G6CxxSQ">
+                            click here</a> <br>
+                          <br>
+                          To find the answers to frequently
+                          asked questions <a href="https://www.romanbaths.co.uk/faqs" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://www.romanbaths.co.uk/faqs&amp;source=gmail&amp;ust=1483711858867000&amp;usg=AFQjCNEEayKrAgFfnzkwdE7jeUa0rAJp4A">
+                            click here</a> <br>
+                          <br>
+                          To find out more about our
+                          accessibility <a href="https://www.romanbaths.co.uk/accessibility" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://www.romanbaths.co.uk/accessibility&amp;source=gmail&amp;ust=1483711858867000&amp;usg=AFQjCNGa3dmCGl-o5RirXPYyOCPUDO27Lg">
+                            click here</a> <br>
+                          <br>
+                          For full terms and conditions of sale
+                          or for further information about
+                          visiting, please go to the
+                          <a href="https://www.romanbaths.co.uk/visiting" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://www.romanbaths.co.uk/visiting&amp;source=gmail&amp;ust=1483711858867000&amp;usg=AFQjCNFtYeVIAalWCTR1QjFct1iE7E6Yaw">website</a> <br>
+                          <br>
+                          <br>
+                          <br>
+                          Sincerely, <br>
+                          <br>
+                          Bookings Team <br>
+                          <br>
+                          If you have any problems with your
+                          order, please contact: <u></u><u></u></span></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="MsoNormal"><u></u><u></u></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="MsoNormal"><u></u>&nbsp;<u></u></p>
+  </div>
+
+</body>
+</html>
